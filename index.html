@@ -30,12 +30,6 @@
                 font-size: 30px;
             }
             
-            p2{
-                font-family: 'Open Sans', sans-serif;
-                font-weight: 400;
-                font-size: 20px;
-            }
-            
             .logo{
                 max-width: 40%;
                 min-width: 300px;
@@ -45,43 +39,38 @@
                 font-size: 50px;
             }
             
-            .social a:link {
+            a:link {
                 color: #fff;
+            }
+            a:visited {
+                color: #fff;
+            }
+            a:hover {
+                color: #ccc;
+            }
+            a:active {
+                color: #ccc;
+            }
+            
+            .social a:link {
                 text-decoration: none;
             }
             .social a:visited {
-                color: #fff;
                 text-decoration: none;
             }
             .social a:hover {
-                color: #ccc;
                 text-decoration: none;
             }
             .social a:active {
-                color: #ccc;
-                text-decoration: none;
-            }
-            
-            .text a:link {
-                color: #fff;
-                text-decoration: none;
-            }
-            .text a:visited {
-                color: #fff;
-                text-decoration: none;
-            }
-            .text a:hover {
-                color: #ccc;
-                text-decoration: none;
-            }
-            .text a:active {
-                color: #ccc;
                 text-decoration: none;
             }
             
             /* utility */
             .centered{
                 text-align: center;
+            }
+            .smaller{
+                font-size: 25px;
             }
         </style>
     </head>
@@ -93,12 +82,12 @@
             </div>
         </div>
         
-        <div class="pure-g centered text">
+        <div class="pure-g centered">
             <div class="pure-u-1-1">
                 <p>Connecting software engineers, developers, and coders in the Youngstown, OH area.</p>
-                <p2>Join us for meetups and be sure to join the ongoing chat via our 
-                    <a href="http://slack.codeyoungstown.com/">Slack.</a>
-                </p2>
+                <p class="smaller">
+                    Join the ongoing chat via <a href="http://slack.codeyoungstown.com/">Slack</a> and attend our <a href="https://www.meetup.com/Code-Youngstown/">meetups</a>.
+                </p>
             </div>
         </div>
         <div class="pure-g centered social">
@@ -111,6 +100,9 @@
                     </a>
                     <a href="https://github.com/codeyoungstown">
                         <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.meetup.com/Code-Youngstown/">
+                        <i class="fa fa-meetup" aria-hidden="true"></i>
                     </a>
             </div>
         </div>
