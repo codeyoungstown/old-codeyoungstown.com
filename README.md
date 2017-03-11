@@ -1,7 +1,5 @@
 # codeyoungstown.com
-The Code Youngstown website.
-
-http://codeyoungstown.com/
+The Code Youngstown website. The website uses GitHub Pages, so the `master` branch will always be what's located at http://codeyoungstown.com/ ! Feel free to make pull requests!
 
 Connecting software engineers, developers, and coders in the Youngstown, OH area.
 
